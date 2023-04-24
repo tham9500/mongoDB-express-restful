@@ -1,0 +1,28 @@
+{
+  "name": "restful-api-nodejs",
+  "version": "1.0.0",
+  "description": "RESTful API with Node.js + MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "format": "./node_modules/.bin/prettier --write server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "RESTFul",
+    "API",
+    "Node.js",
+    "MongoDB",
+    "Mongoose",
+    "Express.js"
+  ],
+  "author": "Chai Phonbopit",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1",
+    "mongoose": "7.0.4"
+  },
+  "devDependencies": {
+    "prettier": "1.18.2"
+  }
+}
